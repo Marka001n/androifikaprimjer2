@@ -1,0 +1,57 @@
+.naslov {
+    text-align: center;
+}
+
+
+.forma {
+    margin: 0 auto;
+    padding: 30px;
+    width: 320px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 5px;
+    background-color: #faf0e6;
+}
+
+.tekst {
+    grid-column: 1/-1;
+    width: 100%;
+}
+
+.inputi {
+    grid-column: 1/-1;
+}
+
+.input {
+    width: 100%;
+}
+
+.tekstZvijezdica {
+    grid-column: 2/-1;
+    font-size: 11px;
+    color: red;
+}
+
+.dugme {
+    grid-column: 2/-1;
+    align-items: center;
+    justify-self: end;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.rezultat {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 320px;
+    height: auto;
+}
